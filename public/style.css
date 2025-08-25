@@ -1,0 +1,68 @@
+/* Comentario */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    background-color:aliceblue;
+}
+
+.conteudo {
+    display: flex;
+    margin: 40px;
+}
+
+h1, h2 {
+    color: navy;
+}
+
+main {
+    flex: 2;
+    padding: 20px 40px;
+}
+
+main h2 {
+    margin-bottom: 30px;
+}
+
+main section {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+main p {
+    text-align: justify;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    border-left: 4px solid navy;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.0cm;
+}
+
+h2 {
+    border-bottom: 2px solid navy;
+    display: inline-block;
+}
+
+.foto {
+    width: 100%;
+    max-width: 200px;
+    height: 35%;
+}
